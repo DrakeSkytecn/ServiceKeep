@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/kill_service"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="kill_service"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:textSize="20sp"/>-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/start_service"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="start_service"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:textSize="20sp"/>-->
+
+    <Button
+        android:id="@+id/start_learn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        android:layout_centerInParent="true"
+        android:text="开始学习" />
+
+</RelativeLayout>
